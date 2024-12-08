@@ -1,0 +1,106 @@
+.register-title, .login-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00695c;
+    -fx-font-family: "Times New Roman";  /* Corrected font-family property */
+}
+
+.button-login, .button-register {
+    -fx-background-color: #00695c;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.button-login:hover, .button-register:hover {
+    -fx-background-color: #004d40;
+    -fx-text-fill: white;
+}
+
+/* Hyperlink Styling */
+.hyperlink {
+    -fx-font-size: 12px;
+    -fx-text-fill: #00695c;
+    -fx-padding: 5px 0;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #004d40;
+}
+
+.button-create-account, .button-already-account {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 1px;
+    -fx-border-color: white;
+}
+
+.button-create-account:hover, .button-already-account:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.shift-pane {
+    -fx-background-color: #00695c;
+    -fx-padding: 50px;
+}
+
+.title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Styles for the "FOOD HIVE" label */
+.food-hive-label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 24px;
+    -fx-text-fill: black;
+}
+
+/* Styles for the top HBox */
+.top-hbox {
+    -fx-background-color: lightblue;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-pref-width: 1000px;
+}
+
+/* Button Styles */
+.button-style {
+    -fx-pref-width: 100px;
+}
+
+/* VBox styles */
+.vbox-style {
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+.vbox1-style {
+    -fx-border-width: 1px;
+    -fx-background-color: lightgreen;
+    -fx-border-color: white;
+}
+
+.vbox2-style, .vbox3-style {
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+}
+
+/* TableView Styles */
+.table-view {
+    -fx-pref-height: 350px;
+    -fx-max-height: 350px;
+}
+
+/* Labels in the VBoxes */
+.vbox-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
